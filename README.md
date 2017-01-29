@@ -9,7 +9,8 @@ Add Numbers:30
 
 These are the two print statements that I have added in my main class.
 
-Commands to clean, compile, run tests and then create a jar
+##Commands
+ These commands are to clean, compile, run tests and then create a jar
 1. mvn clean - Cleans the prooject, removes jars.
 2. mvn compile - Compiles the project and create a target directory with the class files.
 3. mvn test-compile - Compiles the test directory and creates a tes-classes directory under target with class files for the tests.
