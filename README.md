@@ -2,10 +2,10 @@
 In this Maven java project, I have added a main class that will class two other classes.
 I have also added unit tests for those classes.
 
-To execute the main class, run: mvn package exec:java
+To execute the main class, run: **mvn package exec:java**.
 This will return the results as
 Girish
-Add Numbers:30  
+Add Numbers:30    
 These are the two print statements that I have added in my main class.
 
 ##Commands
