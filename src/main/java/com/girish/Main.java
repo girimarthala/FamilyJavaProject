@@ -43,5 +43,14 @@ public class Main {
         System.out.println("Square Root Result:"+ squareRootResult);
         double powerResult = sciCalc.power(5, 2);
         System.out.println("Power Result:"+ powerResult);
+
+        int addResultFromSciCalc = sciCalc.add(1,2);
+        System.out.println("Add Result from SciCalc:"+ addResultFromSciCalc);
+        int subtractResultFromSciCalc = sciCalc.subtract(20,13);
+        System.out.println("Subtract Result from SciCalc:"+ subtractResultFromSciCalc);
+        int multiplyResultFromSciCalc = sciCalc.multiply(2,5);
+        System.out.println("Multiply Result from SciCalc:"+ multiplyResultFromSciCalc);
+        int divideResultFromSciCalc = sciCalc.divide(20,5);
+        System.out.println("Divide Result from SciCalc:"+ divideResultFromSciCalc);
     }
 }
