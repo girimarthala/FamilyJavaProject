@@ -19,10 +19,10 @@ These are the two print statements that I have added in my main class.
 
 ##Calculator Task  
 I have added two interfaces.  
-1. **SimpleCalculatorInterface** - This has methods of add, subtract, multiply, divide.
+1. **SimpleCalculatorInterface** - This has methods of add, subtract, multiply, divide.  
 2. **ScientificCalculatorInterface** - This extends the previous interface and also has methods of sin, cosine, tan, log, square, squareroot, logarithmic.
 
 Each interface has a class that implements the interface. Main.java has the instantiations for the classes and prints out the results.  
-For Results:  
+**For Results:**  
 Run **mvn package exec:java** or  
 Run the main class.
