@@ -33,6 +33,43 @@ public class ScientificCalculator implements ScientificCalculatorInterface {
         return (Math.pow(base, exponent));
     }
 
+    /** Sin function
+     *
+     * @param num
+     * @return
+     */
+    public double sin(double num){
+        return (Math.sin(num));
+    }
+
+    /** cosine function
+     *
+     * @param num
+     * @return
+     */
+    public double cosine(double num){
+        return (Math.cos(num));
+    }
+
+    /** tangent function
+     *
+     * @param num
+     * @return
+     */
+    public double tan(double num){
+        return (Math.tan(num));
+    }
+
+    /** Logarithmic function
+     *
+     * @param num
+     * @return
+     */
+    public double log(double num){
+        return (Math.log(num));
+    }
+
+
     /** Adding two numbers.
      *
      * @param num1

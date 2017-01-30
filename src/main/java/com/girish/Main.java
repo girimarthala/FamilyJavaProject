@@ -43,6 +43,14 @@ public class Main {
         System.out.println("Square Root Result:"+ squareRootResult);
         double powerResult = sciCalc.power(5, 2);
         System.out.println("Power Result:"+ powerResult);
+        double sinResult = sciCalc.sin(90);
+        System.out.println("Sin Result:"+ sinResult);
+        double cosineResult = sciCalc.cosine(90);
+        System.out.println("cosine Result:"+ cosineResult);
+        double tanResult = sciCalc.tan(90);
+        System.out.println("Tan Result:"+ tanResult);
+        double logResult = sciCalc.log(0);
+        System.out.println("Log Result:"+ logResult);
 
         int addResultFromSciCalc = sciCalc.add(1,2);
         System.out.println("Add Result from SciCalc:"+ addResultFromSciCalc);

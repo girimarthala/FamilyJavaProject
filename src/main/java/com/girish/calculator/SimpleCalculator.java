@@ -4,6 +4,7 @@ package com.girish.calculator;
  * Created by GirishKumarReddy on 1/29/2017.
  */
 public class SimpleCalculator implements SimpleCalculatorInterface {
+
     /** Adding two numbers.
      *
      * @param num1
@@ -41,6 +42,12 @@ public class SimpleCalculator implements SimpleCalculatorInterface {
      * @return Divide result
      */
     public int divide(int num1, int num2) {
-        return (num1/num2);
+        int result = 0;
+        try{
+            result =  (num1/num2);
+        } catch (Exception e){
+            System.out.println(e);
+        }
+        return result;
     }
 }
