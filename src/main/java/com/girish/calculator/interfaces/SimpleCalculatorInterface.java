@@ -1,4 +1,4 @@
-package com.girish.calculator;
+package com.girish.calculator.interfaces;
 
 /**
  * Created by GirishKumarReddy on 1/29/2017.

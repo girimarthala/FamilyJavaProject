@@ -1,5 +1,7 @@
 package com.girish.calculator;
 
+import com.girish.calculator.interfaces.ScientificCalculatorInterface;
+
 /**
  * Created by GirishKumarReddy on 1/29/2017.
  */
@@ -39,7 +41,8 @@ public class ScientificCalculator extends SimpleCalculator implements Scientific
      * @return
      */
     public double sin(double num){
-        return (Math.sin(num));
+
+        return (Math.sin(Math.toRadians(num)));
     }
 
     /** cosine function
@@ -48,7 +51,7 @@ public class ScientificCalculator extends SimpleCalculator implements Scientific
      * @return
      */
     public double cosine(double num){
-        return (Math.cos(num));
+        return (Math.cos(Math.toRadians(num)));
     }
 
     /** tangent function
@@ -57,7 +60,8 @@ public class ScientificCalculator extends SimpleCalculator implements Scientific
      * @return
      */
     public double tan(double num){
-        return (Math.tan(num));
+
+        return (Math.tan(Math.toRadians(num)));
     }
 
     /** Logarithmic function
@@ -66,6 +70,7 @@ public class ScientificCalculator extends SimpleCalculator implements Scientific
      * @return
      */
     public double log(double num){
-        return (Math.log(num));
+
+        return (Math.log10(num));
     }
 }

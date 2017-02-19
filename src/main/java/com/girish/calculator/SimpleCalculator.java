@@ -1,5 +1,7 @@
 package com.girish.calculator;
 
+import com.girish.calculator.interfaces.SimpleCalculatorInterface;
+
 /**
  * Created by GirishKumarReddy on 1/29/2017.
  */

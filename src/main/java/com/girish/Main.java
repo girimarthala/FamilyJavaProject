@@ -10,17 +10,6 @@ import java.util.Scanner;
  */
 public class Main {
     public static void main(String[] args) {
-        /*
-         * Call student class
-         */
-        Student student = new Student(1,"Girish");
-        System.out.println("Student Name:"+ student.name);
-
-        /*
-         * Call add numbers class
-         */
-        AddNumbers addNumbers = new AddNumbers(10, 20);
-        System.out.println("Add Numbers:"+ addNumbers.result);
 
         System.out.println("Select the type of calculator");
         System.out.println("1. Simple Calculator");
